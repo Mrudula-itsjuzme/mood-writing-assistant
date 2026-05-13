@@ -6,6 +6,19 @@ This project replaces the default Create React App starter with a clearer portfo
 
 ---
 
+## Project links and evidence
+
+| Item | Link / Note |
+|---|---|
+| Repository | https://github.com/Mrudula-itsjuzme/mood-writing-assistant |
+| Paper / reference | Creative AI/frontend prototype; no paper attached |
+| Demo video | Not uploaded yet |
+| Deployment | Add Netlify/Vercel/GitHub Pages link here after hosting |
+| Dataset note | No dataset required yet; future LLM integration may use prompt examples or writing samples |
+| Result screenshots | Add UI screenshots, mood-selection screenshots, and generated-output examples under `screenshots/` |
+
+---
+
 ## Project idea
 
 Writing changes dramatically with mood. A cheerful note, a reflective journal entry, and a dramatic poem all need different tone, vocabulary, and rhythm.
