@@ -1,70 +1,88 @@
-# Getting Started with Create React App
+# Mood Writing Assistant
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A React-based writing assistant concept that helps users generate or refine writing based on mood, tone, and emotional direction.
 
-## Available Scripts
+This project replaces the default Create React App starter with a clearer portfolio README so visitors can understand what the app is meant to become.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## Project idea
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Writing changes dramatically with mood. A cheerful note, a reflective journal entry, and a dramatic poem all need different tone, vocabulary, and rhythm.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Mood Writing Assistant explores a simple UI-driven tool for mood-aware writing support.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Planned features
 
-### `npm run build`
+- mood selection for writing style
+- prompt-based writing assistance
+- tone-aware text suggestions
+- React-based interactive UI
+- reusable components for input and output panels
+- future support for saving drafts or writing history
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## App flow
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```text
+User selects mood
+       ↓
+User enters prompt or draft
+       ↓
+Assistant generates or refines text
+       ↓
+User edits and saves output
+```
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Tech stack
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- React
+- JavaScript
+- HTML / CSS
+- Create React App
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Getting started
 
-## Learn More
+```bash
+git clone https://github.com/Mrudula-itsjuzme/mood-writing-assistant.git
+cd mood-writing-assistant
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+npm install
+npm start
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Open `http://localhost:3000` in your browser.
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Available scripts
 
-### Analyzing the Bundle Size
+```bash
+npm start      # run development server
+npm test       # run tests
+npm run build  # create production build
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## Future improvements
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- add polished UI screens
+- add mood presets such as calm, poetic, angry, romantic, formal, and reflective
+- integrate an LLM API for text generation
+- add copy/download buttons
+- add local draft history
+- improve accessibility and responsive design
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Author
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Built by [Pedamallu Sai Mrudula](https://github.com/Mrudula-itsjuzme) as part of a creative AI, React, and writing-tools portfolio.
